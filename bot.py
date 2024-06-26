@@ -1,5 +1,7 @@
 import logging
 import logging.config
+import os
+from os import environ
 
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
